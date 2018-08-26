@@ -16,10 +16,13 @@
 
 package org.freaky.graveyard.fragments;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.UserInfo;
+import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
@@ -30,42 +33,55 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class PowerMenuSettings extends SettingsPreferenceFragment
-                implements Preference.OnPreferenceChangeListener {
-
+public class PowerMenuSettings extends SettingsPreferenceFragment implements
+         Preference.OnPreferenceChangeListener, Indexable {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
         addPreferencesFromResource(R.xml.freaky_graveyard_power);
-
-        final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+        PreferenceScreen prefSet = getPreferenceScreen();
 
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
-        return false;
+        return true;
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.FREAKY;
+        return MetricsEvent.FREAKY;
     }
 
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                     SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.freaky_graveyard_power;
+                    result.add(sir);
+                    return result;
+                }
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    ArrayList<String> result = new ArrayList<String>();
+                    return result;
+                }
+    };
 }
