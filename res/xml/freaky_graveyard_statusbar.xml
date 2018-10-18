@@ -42,4 +42,16 @@
         android:title="@string/traffic_title"
         android:summary="@string/traffic_title_summary" />
 
+    <PreferenceCategory
+        android:key="statusbar_misc_cat"
+        android:title="@string/misc_title">
+
+     <org.freaky.graveyard.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_to_sleep_title"
+        android:summary="@string/double_tap_to_sleep_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
