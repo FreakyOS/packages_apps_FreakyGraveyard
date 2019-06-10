@@ -66,5 +66,16 @@
          android:fragment="org.freaky.graveyard.fragments.BatteryMode" />
 
     </PreferenceCategory>
-	
+
+    <PreferenceCategory
+        android:key="statusbar_clock_cat"
+        android:title="@string/date_and_time">
+
+    <Preference
+        android:key="clock_adv_settings"
+        android:title="@string/status_bar_clock_adv_title"
+        android:summary="@string/status_bar_clock_adv_summary"
+        android:fragment="org.freaky.graveyard.fragments.ClockDateSettings" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
