@@ -23,4 +23,10 @@
         android:fragment="org.freaky.graveyard.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
+        <org.freaky.graveyard.preferences.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
