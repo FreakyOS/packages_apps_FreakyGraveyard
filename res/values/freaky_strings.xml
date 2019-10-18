@@ -170,4 +170,11 @@
     <string name="file_header_select_summary">Select custom image</string>
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_provider" translatable="false">file</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call Vibration</string>
+    <string name="incall_vibrate_connect_title">Vibrate on Connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on Call Waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on Disconnect</string>
+
 </resources>
