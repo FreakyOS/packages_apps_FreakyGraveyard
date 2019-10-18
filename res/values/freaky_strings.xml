@@ -51,7 +51,7 @@
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_settings_summary">The statusbar is nice but it could be better</string>
 
-    <string name="volume_title">Volume Keys</string>
+    <!--string name="volume_title">Volume Keys</string-->
     <string name="volume_settings_summary">Get those volume buttons to do magic stuff</string>
 
     <string name="notifications_title">Notifications</string>
@@ -91,4 +91,12 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Wake device</string>
     <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
+
+    <string name="volume_title">Volume Rockers</string>
+    <string name="volume_summary">Customize settings for volume buttons</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+
 </resources>
