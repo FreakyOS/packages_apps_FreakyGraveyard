@@ -18,9 +18,15 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
-        android:key="volume_key"
-        android:fragment="org.freaky.graveyard.fragments.VolumeRockerSettings"
-        android:title="@string/volume_title" />
+    <PreferenceCategory
+        android:key="volume_rocker"
+        android:title="@string/volume_title">
+
+        <Preference
+            android:key="volume_key"
+            android:fragment="com.havoc.config.center.fragments.Volume"
+            android:title="@string/volume_title"
+            android:summary="@string/volume_summary" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
