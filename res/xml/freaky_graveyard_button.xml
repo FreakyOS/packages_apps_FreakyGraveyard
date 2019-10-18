@@ -28,5 +28,15 @@
             android:summary="@string/volume_rocker_wake_summary"
             android:title="@string/volume_rocker_wake_title"
             android:defaultValue="false" />
+            
+    <PreferenceCategory
+        android:key="volume_rocker"
+        android:title="@string/volume_title">
+
+        <Preference
+            android:key="volume_key"
+            android:fragment="org.freaky.graveyard.fragments.Volume"
+            android:title="@string/volume_title"
+            android:summary="@string/volume_summary" />
 
 </PreferenceScreen>
