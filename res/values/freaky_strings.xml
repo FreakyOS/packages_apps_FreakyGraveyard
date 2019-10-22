@@ -259,4 +259,8 @@
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+
+    <!-- Navbar Invert Layout -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for navbar buttons</string>
 </resources>
