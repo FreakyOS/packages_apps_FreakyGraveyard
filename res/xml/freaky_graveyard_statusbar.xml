@@ -54,4 +54,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="statusbar_battery_icon"
+        android:title="@string/battery_style_category_title">
+
+    </PreferenceCategory>-->
+    <Preference
+         android:key="battery_mode"
+         android:title="@string/battery_mode_title"
+         android:summary="@string/battery_mode_summary"
+         android:fragment="org.freaky.graveyard.fragments.BatteryMode" />
+
+    </PreferenceCategory>
+	
 </PreferenceScreen>
