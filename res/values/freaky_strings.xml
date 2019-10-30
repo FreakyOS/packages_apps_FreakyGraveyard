@@ -177,4 +177,7 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on Call Waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on Disconnect</string>
 
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
