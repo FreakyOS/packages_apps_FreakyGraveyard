@@ -44,11 +44,12 @@ public class AmbientLight extends SettingsPreferenceFragment implements Preferen
 
         mEdgeLightColorPreference = (ColorPickerPreference) findPreference(PULSE_AMBIENT_LIGHT_COLOR);
         int edgeLightColor = Settings.System.getInt(getContentResolver(),
-                Settings.System.PULSE_AMBIENT_LIGHT_COLOR, 0xFF3980FF);
+                Settings.System.PULSE_AMBIENT_LIGHT_COLOR, 0xFF00F801);
         mEdgeLightColorPreference.setNewPreviewColor(edgeLightColor);
         mEdgeLightColorPreference.setAlphaSliderEnabled(false);
-        String edgeLightColorHex = String.format("#%08x", (0xFF3980FF & edgeLightColor));
-        if (edgeLightColorHex.equals("#ff3980ff")) {
+
+        String edgeLightColorHex = ColorPickerPreference.convertToRGB(edgeLightColor);
+        if (edgeLightColorHex.equals("#00f801")) {
             mEdgeLightColorPreference.setSummary(R.string.color_default);
         } else {
             mEdgeLightColorPreference.setSummary(edgeLightColorHex);
@@ -59,9 +60,9 @@ public class AmbientLight extends SettingsPreferenceFragment implements Preferen
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mEdgeLightColorPreference) {
-            String hex = ColorPickerPreference.convertToARGB(
+            String hex = ColorPickerPreference.convertToRGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals("#ff3980ff")) {
+            if (hex.equals("#00f801")) {
                 preference.setSummary(R.string.color_default);
             } else {
                 preference.setSummary(hex);
