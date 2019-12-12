@@ -30,6 +30,7 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import org.freaky.graveyard.preferences.AmbientLightSettingsPreview;
 
 public class AmbientLight extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
@@ -45,6 +46,7 @@ public class AmbientLight extends SettingsPreferenceFragment implements Preferen
         mEdgeLightColorPreference = (ColorPickerPreference) findPreference(PULSE_AMBIENT_LIGHT_COLOR);
         int edgeLightColor = Settings.System.getInt(getContentResolver(),
                 Settings.System.PULSE_AMBIENT_LIGHT_COLOR, 0xFF00F801);
+        AmbientLightSettingsPreview.setAmbientLightPreviewColor(edgeLightColor);
         mEdgeLightColorPreference.setNewPreviewColor(edgeLightColor);
         mEdgeLightColorPreference.setAlphaSliderEnabled(false);
 
@@ -67,6 +69,7 @@ public class AmbientLight extends SettingsPreferenceFragment implements Preferen
             } else {
                 preference.setSummary(hex);
             }
+            AmbientLightSettingsPreview.setAmbientLightPreviewColor(Integer.valueOf(String.valueOf(newValue)));
             int intHex = ColorPickerPreference.convertToColorInt(hex);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.PULSE_AMBIENT_LIGHT_COLOR, intHex);
