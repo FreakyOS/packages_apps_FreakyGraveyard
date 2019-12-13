@@ -26,21 +26,32 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Surface;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class FreakyGraveyard extends SettingsPreferenceFragment {
 
+    private Preference mChargingLeds;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.freaky_graveyard);
+
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        mChargingLeds = (Preference) findPreference("charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefScreen.removePreference(mChargingLeds);
+        }
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM_SETTINGS;
+        return MetricsProto.MetricsEvent.FREAKY_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
