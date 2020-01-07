@@ -184,4 +184,8 @@
     <!-- Lockscreen Media Art -->
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+
+    <!-- QS Blur -->
+    <string name="blur_quicksettings">Blur behind quick settings</string>
+    <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
 </resources>
