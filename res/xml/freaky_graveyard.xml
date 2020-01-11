@@ -77,8 +77,8 @@
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
-            android:summary="@string/powermenu_settings_summary"
+            android:title="@string/power_menu_title" 
+            android:summary="@string/power_menu_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
