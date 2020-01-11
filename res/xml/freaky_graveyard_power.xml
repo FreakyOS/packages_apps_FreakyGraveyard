@@ -26,17 +26,23 @@
         android:defaultValue="false" />
 
     <org.freaky.graveyard.preferences.SecureSettingSwitchPreference
+        android:key="advanced_reboot_onkeyguard"
+        android:title="@string/advanced_reboot_title_keyguard"
+        android:summary="@string/advanced_reboot_summary_keyguard"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
         android:key="screenshot"
         android:title="@string/power_menu_screenshot_title"
         android:summary="@string/power_menu_screenshot_summary"
         android:defaultValue="false" />
 
-    <org.freaky.graveyard.preferences.SecureSettingSwitchPreference
+    <CheckBoxPreference
         android:key="airplane"
         android:title="@string/power_menu_airplane_title"
         android:defaultValue="false" />
 
-    <org.freaky.graveyard.preferences.SecureSettingSwitchPreference
+    <CheckBoxPreference
         android:key="lockdown"
         android:title="@string/power_menu_lockdown_title"
         android:defaultValue="false" />

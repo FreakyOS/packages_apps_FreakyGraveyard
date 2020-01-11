@@ -226,4 +226,6 @@
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    <string name="advanced_reboot_title_keyguard">Advanced restart on secure lockscreen</string>
+    <string name="advanced_reboot_summary_keyguard">Enable advanced restart also on secure lockscreen</string>
 </resources>
