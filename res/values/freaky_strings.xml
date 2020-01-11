@@ -39,9 +39,6 @@
     <string name="navbar_title">Navbar features</string>
     <string name="navbar_settings_summary">Teach your navbar some newer tricks</string>
 
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_settings_summary">Make that shutdown menu more useful</string>
-
     <string name="quicksettings_title">Quick Settings</string>
     <string name="quicksettings_settings_summary">Make that QS comfortable</string>
 
@@ -215,4 +212,18 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_settings_summary">Make that shutdown menu more useful</string>
+    <string name="power_menu_subtitle">Customize power menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Long-press for screen recorder</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_lockdown_title">Lockdown</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Advanced restart</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
 </resources>
