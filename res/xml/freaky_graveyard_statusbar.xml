@@ -36,4 +36,10 @@
         android:summary="@string/roaming_indicator_icon_summary"
         android:defaultValue="true"/>
 
+    <Preference
+        android:key="traffic"
+        android:fragment="org.freaky.graveyard.fragments.Traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_title_summary" />
+
 </PreferenceScreen>
