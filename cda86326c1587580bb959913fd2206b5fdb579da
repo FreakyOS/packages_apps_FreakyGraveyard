@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3db64112_8e6727fb",
+        "filename": "res/xml/freaky_graveyard_gestures.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-06-10T15:19:12Z",
+      "side": 1,
+      "message": "Nitesh please fix this commit",
+      "revId": "cda86326c1587580bb959913fd2206b5fdb579da",
+      "serverId": "52305d8f-5d5a-4b15-9a96-2f03c7c153c6",
+      "unresolved": true
+    }
+  ]
+}
