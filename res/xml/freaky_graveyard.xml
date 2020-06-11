@@ -93,7 +93,7 @@
         <!-- Gestures -->
         <Preference
             android:key="gestures__category"
-            android:title="@string/gestures_title" 
+            android:title="@string/gestures_title"
             android:summary="@string/gestures_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
@@ -101,9 +101,16 @@
         <!-- Misc -->
         <Preference
             android:key="misc_category"
-            android:title="@string/misc_title" 
+            android:title="@string/misc_title"
             android:summary="@string/misc_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+        <!-- About us -->
+        <PreferenceScreen
+        android:fragment="org.freaky.graveyard.fragments.AboutTeam"
+        android:icon="@drawable/ic_about_team"
+        android:key="about_team"
+        android:summary="@string/about_team_summary"
+        android:title="@string/about_team_title" />
 </PreferenceScreen>
