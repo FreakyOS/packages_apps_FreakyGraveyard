@@ -95,4 +95,9 @@
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
+    <!-- About team -->
+    <string name="about_team_title">The FreakyOS Team</string>
+    <string name="about_team_summary">Information about the team and maintainers</string>
+    <string name="freaky_team_title">Freaky Team</string>
+
 </resources>
