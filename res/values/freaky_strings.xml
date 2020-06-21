@@ -131,4 +131,8 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
 
+    <!-- QS tiles Accent color tinting -->
+    <string name="tint_qs_tiles_title">QS tiles tint</string>
+    <string name="tint_qs_tiles_summary">Tint QS tiles with color accent</string>
+
 </resources>
