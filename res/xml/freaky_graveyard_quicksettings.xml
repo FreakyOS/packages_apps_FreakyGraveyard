@@ -23,4 +23,11 @@
             android:title="@string/enable_clear_all_button"
             android:summary="@string/enable_clear_all_button_summary"
             android:defaultValue="false" />
+
+	<org.freaky.graveyard.preferences.SystemSettingSwitchPreference
+            android:key="tint_qs_tiles"
+            android:title="@string/tint_qs_tiles_title"
+            android:summary="@string/tint_qs_tiles_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
