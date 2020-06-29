@@ -17,5 +17,16 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <!-- Rounded Corners -->
+    <PreferenceCategory 
+         android:key="rounded_corners"
+         android:title="@string/corners_category_title"> 
+        <Preference
+         android:key="rounded_corners" 
+         android:title="@string/corners_title"
+         android:summary="@string/corners_category_summary" 
+         android:fragment="org.freaky.graveyard.fragments.RoundedCornersSettings" />
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
