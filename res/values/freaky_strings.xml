@@ -208,4 +208,7 @@
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without Password/Pattern/PIN\n\nNote: Use at your own risk!</string>
 
+    <!-- Data Disabled Icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
 </resources>
