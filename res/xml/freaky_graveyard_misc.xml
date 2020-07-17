@@ -28,5 +28,11 @@
          android:fragment="org.freaky.graveyard.fragments.RoundedCornersSettings" />
     </PreferenceCategory>
 
+        <Preference
+            android:key="allow_signature_fake"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"
+            android:fragment="org.freaky.graveyard.preferences.GlobalSettingSwitchPreference"
+            android:defaultValue="false" />
 
 </PreferenceScreen>
