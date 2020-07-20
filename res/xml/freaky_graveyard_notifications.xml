@@ -41,6 +41,12 @@
             android:fragment="org.freaky.graveyard.fragments.BatteryLightSettings"
             android:title="@string/battery_light_settings" />
 
+    	<org.freaky.graveyard.preference.SystemSettingSwitchPreference
+        	android:key="status_bar_notif_count"
+        	android:title="@string/notif_count_title"
+        	android:summary="@string/notif_count_summary"
+        	android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
