@@ -34,4 +34,19 @@
          android:summary="@string/allow_signature_fake_summary"
          android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="switches_category"
+        android:title="@string/switch_style_title">
+
+        <org.freaky.graveyard..preferences.SystemSettingListPreference
+            android:key="switch_style"
+            android:title="@string/switch_style_title"
+            android:dialogTitle="@string/switch_style_title"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
