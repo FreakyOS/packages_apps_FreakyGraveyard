@@ -42,29 +42,29 @@
             android:fragment="org.freaky.graveyard.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar
         <Preference
             android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
+            android:title="@string/navbar_title"
             android:summary="@string/navbar_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_navbar"/> -->
 
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
-            android:title="@string/lockscreen_title" 
+            android:title="@string/lockscreen_title"
             android:summary="@string/lockscreen_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
-        <!-- Recents -->
+        <!-- Recents
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:summary="@string/recents_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"/> -->
 
         <!-- Notifications -->
         <Preference
@@ -77,18 +77,18 @@
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
+            android:title="@string/powermenu_title"
             android:summary="@string/powermenu_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Animations -->
+        <!-- Animations
         <Preference
             android:key="animations__category"
-            android:title="@string/animations_title" 
+            android:title="@string/animations_title"
             android:summary="@string/animations_settings_summary"
             android:fragment="org.freaky.graveyard.fragments.AnimationSettings"
-            android:icon="@drawable/ic_settings_animations"/>
+            android:icon="@drawable/ic_settings_animations"/> -->
 
         <!-- Gestures -->
         <Preference
