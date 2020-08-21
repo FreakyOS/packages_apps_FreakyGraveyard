@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Graveyard</string>
+    <string name="freaky_graveyard_title">Freaky Graveyard</string>
+    <!--Preference Title -->
+    <string name="title_status_bar">Barra de estado</string>
+    <string name="title_quick_settings">Ajustes rápidos</string>
+    <string name="title_buttons">Botones físicos</string>
+    <string name="title_navigation_bar">Barra de navegación</string>
+    <string name="title_lockscreen">Pantalla de bloqueo</string>
+    <string name="title_recent">Aplicaciones recientes</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_power_menu">Menú de apagado</string>
+    <string name="title_animations">Animaciones</string>
+    <string name="title_gestures">Gestos</string>
+    <string name="title_misc">Misceláneos</string>
+    <!-- Preference summaries -->
+    <string name="summary_animations">Haz tus transiciones del sistema más asombrosas o horribles</string>
+    <string name="summary_buttons">Cambia cosas de tus botones físicos</string>
+    <string name="summary_gestures">Configura algunos gestos para facilitar las cosas</string>
+    <string name="summary_lockscreen">Cambia el diseño y las funciones de tu pantalla de bloqueo</string>
+    <string name="summary_misc">Cosas que no van en otras opciones</string>
+    <string name="summary_navigation_bar">Enséñale a tu barra de navegación unos cuantos trucos</string>
+    <string name="summary_power_menu">Haz que el menú de apagado sea más util</string>
+    <string name="cat_powermenu_items">Elementos del menú de apagado</string>
+    <string name="summary_quick_settings">Haz que los ajustes rápidos sean cómodos</string>
+    <string name="summary_recent">Explora más formas de multitarea</string>
+    <string name="summary_status_bar">La barra de estado es agradable pero podría ser mejor</string>
+    <string name="summary_notifications">Cambia cómo puedes ver las notificaciones</string>
+    <!--    <string name="volume_title">Volume Keys</string>-->
+    <string name="volume_settings_summary">Deja que los botones de volumen hagan magia</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reiniciar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <!-- Footer alerts -->
+    <string name="animations_transparent_alert">¡Algunas (o quizás todas) de estas animaciones podrían no funcionar si tu teléfono tiene un tema transparente!</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selector de colores</string>
+    <string name="press_color_to_apply">Pulsa sobre el color para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Fijar</string>
+    <string name="color_default">Predeterminado</string>
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Gesto de tres dedos</string>
+    <string name="three_finger_gesture_summary">Desliza tres dedos para hacer una captura de pantalla</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Mostrar cabeceras de notificación</string>
+    <string name="notification_headers_summary">Muestra cabeceras en las notificaciones al estilo Android R (Debe reiniciar el Iu del sistema)</string>
+    <!-- About team -->
+    <string name="about_team_title">El equipo de FreakyOS</string>
+    <string name="about_team_toolbar_title">El equipo Freaky</string>
+    <string name="about_team_summary">Información sobre el equipo y los mantenedores</string>
+    <string name="freaky_team_title">¿Por qué tan serio?</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Despertar dispositivo</string>
+    <string name="volume_rocker_wake_summary">Pulsa las teclas de volumen para despertar tu dispositivo</string>
+    <string name="volume_title">Rockers de Volumen</string>
+    <string name="volume_summary">Personaliza ajustes para los botones de volumen</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Control de reproducción</string>
+    <string name="volume_rocker_music_controls_summary">Cuando la pantalla está apagada, la pulsación prolongada de las teclas de volumen buscará pistas de música</string>
+    <!-- Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Control de cursor del teclado</string>
+    <string name="volume_key_cursor_control_off">Desactivado</string>
+    <string name="volume_key_cursor_control_on">Volumen arriba/abajo - Cursor Izquierda/Derecha</string>
+    <string name="volume_key_cursor_control_on_reverse">Volumen arriba/abajo - Cursor Izquierda/Derecha</string>
+    <!-- Lockscreen Categories -->
+    <string name="ls_disable_elements">Elementos</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Información de carga</string>
+    <string name="lockscreen_battery_info_summary">Mostrar corriente máxima, voltaje y temperatura de la batería mientras se carga</string>
+    <!-- QS category -->
+    <string name="enable_clear_all_button">Reemplazar borrar todo el texto con un botón agradable</string>
+    <string name="enable_clear_all_button_summary">Muestra el botón de borrar todas las notificaciones en la configuración rápida en lugar del texto por defecto</string>
+    <!-- Ambient edge lighting -->
+    <string name="ambient_light_settings_title">Luz ambiental</string>
+    <string name="pulse_ambient_light_title">Iluminación de bordes</string>
+    <string name="pulse_ambient_light_summary">Enciende los bordes laterales de la pantalla en el pulso de notificación</string>
+    <string name="pulse_ambient_light_color_title">Color de la luz del borde</string>
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Ocultar respuestas inteligentes</string>
+    <string name="hide_smart_replies_summary">Oculta respuestas inteligentes para ahorrar espacio en la pantalla con notificaciones emergentes</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Toque accidental</string>
+    <string name="anbi_summary">Evita la interacción con los botones de navegación mientras se toca la pantalla</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Luz de carga de la batería</string>
+    <string name="battery_light_enable">Activar</string>
+    <string name="battery_light_allow_on_dnd_title">Luz de la batería en modo No molestar</string>
+    <string name="battery_light_low_blinking_title">Encender luz en batería baja</string>
+    <string name="battery_light_cat">Color de la luz de la batería al cargar</string>
+    <string name="battery_light_low_color">Batería baja</string>
+    <string name="battery_light_medium_color">Batería media</string>
+    <string name="battery_light_full_color">Batería casi completa</string>
+    <string name="battery_light_reallyfull_color">Batería completa (100)</string>
+    <!-- QS tiles Accent color tinting -->
+    <string name="tint_qs_tiles_title">Pintar los iconos de los ajustes rápidos</string>
+    <string name="tint_qs_tiles_summary">Pinta los iconos de los ajustes rápidos con el color de acento</string>
+    <!-- QS Headers -->
+    <string name="status_bar_custom_header_title">Activar cabecera personalizada</string>
+    <string name="daylight_header_pack_title">Colección de imágenes de cabecera</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra de la imagen de cabecera</string>
+    <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes brillantes</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">Imagen estática</string>
+    <string name="daylight_header_provider_title">Colección de imágenes</string>
+    <string name="custom_header_provider_title">Proveedor de cabecera</string>
+    <string name="custom_header_browse_title">Ver cabeceras instaladas</string>
+    <string name="custom_header_browse_summary">Haz clic en cualquier imagen para usar en modo estático</string>
+    <string name="custom_header_browse_summary_new">Explorar toda la colección de cabeceras disponible</string>
+    <string name="custom_header_pick_title">Seleccionar imagen de cabecera</string>
+    <string name="custom_header_pick_summary">Selecciona una imagen para usar en modo estático</string>
+    <string name="style_enabled_summary">Imagen personalizada de cabecera ACTIVADA</string>
+    <string name="style_disabled_summary">Imagen personalizada de cabecera APAGADA</string>
+    <string name="header_provider_disabled">Desactivado</string>
+    <string name="custom_header_title">Imagen personalizada de cabecera</string>
+    <string name="file_header_select_title">Seleccionar imagen</string>
+    <string name="file_header_select_summary">Selecciona una imagen personalizada</string>
+    <string name="file_header_provider_title">Imagen personalizada</string>
+    <string name="status_bar_custom_header_height_title">Altura de la imagen</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibración en llamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar al esperar llamadas</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo está en el bolsillo</string>
+    <!-- Lockscreen Media Art -->
+    <string name="media_art_title">Arte multimedia</string>
+    <string name="media_art_summary">Muestra la carátula multimedia como fondo de pantalla de bloqueo</string>
+    <!-- QS Blur -->
+    <string name="blur_quicksettings">Desenfoque detrás de los ajustes rápidos</string>
+    <string name="blur_quicksettings_subtitle">Desenfoca el fondo oscurecido detrás de los ajustes rápidos</string>
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Esquinas redondeadas</string>
+    <string name="corners_category_summary">Ajusta las esquinas redondeadas y el relleno</string>
+    <string name="corners_title">Personalizar esquinas redondeadas</string>
+    <string name="corner_radius">Radio de esquina redondeada</string>
+    <string name="content_padding">Relleno del contenido de esquina</string>
+    <string name="status_bar_padding">Relleno extra de la barra de estado</string>
+    <string name="corner_fwvals">Usar valores predeterminados</string>
+    <string name="corner_fwvals_summary">Útil si el dispositivo tiene esquinas redondeadas</string>
+    <string name="unit_pixels">dp</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Mostrar 4G en lugar de LTE</string>
+    <string name="show_fourg_summary">Reemplaza indicadores LTE por 4G</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Desbloqueo de huella dactilar</string>
+    <string name="fp_unlock_keystore_summary">Desbloquea con huella dactilar incluso después de reiniciar sin contraseña/Patrón/PIN\n\nNota: ¡Úsalo bajo tu propio riesgo!</string>
+    <!-- Data Disabled Icon -->
+    <string name="data_disabled_icon_title">Mostrar icono de datos desactivados</string>
+    <string name="data_disabled_icon_summary">Muestra la cruz junto a la barra de estado cuando los datos están desactivados</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
+    <string name="roaming_indicator_icon_summary">Muestra el indicador de Roaming en el icono de señal cuando esté en modo itinerancia</string>
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">Permitir falsificación de firmas</string>
+    <string name="allow_signature_fake_summary">Permite a las aplicaciones saltar los sistemas de seguridad fingiendo que son una aplicación diferente.</string>
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Contador de notificaciones</string>
+    <string name="notif_count_summary">Muestra el conteo de las notificaciones cerca de iconos de notación</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Indicador de tráfico de red</string>
+    <string name="traffic_title_summary">Personaliza los indicadores de tráfico de red</string>
+    <string name="network_traffic_title">Tráfico de red</string>
+    <string name="network_traffic_type">Selecciona el tipo de actividad del indicador</string>
+    <string name="show_network_traffic_up">Enlazar</string>
+    <string name="show_network_traffic_down">Bajar enlace</string>
+    <string name="show_network_traffic_all">Enlazar y bajar enlace</string>
+    <string name="network_traffic_state_title">Mostrar actividad de red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de auto-ocultación de la actividad de la red (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Oculta las flechas del indicador de tráfico de red</string>
+    <!-- Official Devices -->
+    <string name="official_devices_json_response_url" translatable="true">https://raw.githubusercontent.com/FreakyOS/ota_config/still_alive/devices.json</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Vibración de notificación</string>
+    <string name="vibrate_on_notifications_summary">Vibrar en notificaciones</string>
+    <!-- Global Actions -->
+    <string name="advanced_powermenu_category_title">Menú de apagado avanzado</string>
+    <string name="global_actions_title">Menú de apagado</string>
+    <string name="global_actions_summary">Selecciona qué mostrar cuando presionas el botón de apagado</string>
+    <string name="global_actions_power">Encender</string>
+    <string name="global_actions_restart">Reiniciar</string>
+    <string name="global_actions_airplane">Modo avión</string>
+    <string name="global_actions_settings">Ajustes</string>
+    <string name="global_actions_lockdown">Bloquear</string>
+    <string name="global_actions_soundpanel">Panel de sonido</string>
+    <string name="global_actions_users">Usuarios</string>
+    <string name="global_actions_screenshot">Capturar pantalla</string>
+    <string name="global_actions_flashlight">Linterna</string>
+    <string name="global_actions_emergency">Emergencia</string>
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Al reiniciar también se muestran opciones para recuperación y cargador de arranque</string>
+</resources>
