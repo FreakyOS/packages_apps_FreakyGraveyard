@@ -58,7 +58,6 @@
         android:key="statusbar_battery_icon"
         android:title="@string/battery_style_category_title">
 
-    </PreferenceCategory>-->
     <Preference
          android:key="battery_mode"
          android:title="@string/battery_mode_title"
