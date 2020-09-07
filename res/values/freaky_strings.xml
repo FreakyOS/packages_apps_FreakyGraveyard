@@ -326,4 +326,5 @@
     <string name="volte_icon_volte">VoLTE Icon</string>
     <string name="volte_icon_oos">VoLTE OOS Icon</string>
     <string name="volte_icon_hd">HD Icon</string>
+    <string name="volte_icon_miui">MIUI 11</string>
 </resources>
