@@ -44,6 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
+    private ContentResolver mResolver;
     private ListPreference mTorchPowerButton;
 
     @Override
